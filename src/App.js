@@ -3,7 +3,6 @@ import "./App.css";
 import React, { Component } from "react";
 import Navbar from "./Components/Navbar";
 import News from "./Components/News";
-import NewsItem from "./Components/NewsItem";
 
 //use rcc for class based components
 export default class App extends Component {
