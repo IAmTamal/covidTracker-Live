@@ -27,13 +27,13 @@ const Covid = () => {
 
             <div className="headings">
                 <h6>🔴Live</h6>
-                <h2>Covid-19 Tracker</h2>
+                <h2>COVID-19 TRACKER WB</h2>
             </div>
 
 
             <div className="allcards">
                 <div class="card c1">
-                    <div className="box ">
+                    <div className="box1 ">
                         <p className="card__name">
                             <span>OUR</span> STATE
                         </p>
@@ -41,8 +41,8 @@ const Covid = () => {
                     </div>
                 </div>
 
-                <div class="card c1">
-                    <div className="box ">
+                <div class="card c2">
+                    <div className="box2 ">
                         <p className="card__name">
                             <span>TOTAL</span> TESTED
                         </p>
@@ -50,8 +50,8 @@ const Covid = () => {
                     </div>
                 </div>
 
-                <div class="card c1">
-                    <div className="box ">
+                <div class="card c3">
+                    <div className="box3 ">
                         <p className="card__name">
                             <span>TOTAL</span> CONFIRMED
                         </p>
@@ -59,8 +59,8 @@ const Covid = () => {
                     </div>
                 </div>
 
-                <div class="card c1">
-                    <div className="box ">
+                <div class="card c4">
+                    <div className="box4 ">
                         <p className="card__name">
                             <span>TOTAL</span> RECOVERED
                         </p>
@@ -68,8 +68,8 @@ const Covid = () => {
                     </div>
                 </div>
 
-                <div class="card c1">
-                    <div className="box ">
+                <div class="card c5">
+                    <div className="box5 ">
                         <p className="card__name">
                             <span>TOTAL</span> DEATH
                         </p>
@@ -77,8 +77,8 @@ const Covid = () => {
                     </div>
                 </div>
 
-                <div class="card c1">
-                    <div className="box ">
+                <div class="card c6">
+                    <div className="box6 ">
                         <p className="card__name">
                             <span>TOTAL</span> VACCINATED
                         </p>
