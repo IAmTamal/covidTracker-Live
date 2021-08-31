@@ -1,5 +1,7 @@
 //Learning useState hooks
 //Use effect is a type of side effect.
+//IGNORE THE CONTENTS OF THIS FILE
+
 import React, { useState } from "react";
 
 const Learning = () => {

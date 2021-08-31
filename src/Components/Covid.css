@@ -5,6 +5,17 @@ body {
 h6 {
     color: azure;
     font-family: 'IBM Plex Sans', sans-serif;
+    animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(0.5, 0.5);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
 
 }
 
@@ -58,8 +69,13 @@ span {
     display: inline-block;
     background: #edde9c;
     height: 12rem;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 2%;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 5px 15px rgba(216, 210, 210, 0.823);
 }
 
 .c1 {
@@ -91,5 +107,21 @@ span {
     font-size: 1.9rem;
     font-family: 'Signika Negative', sans-serif;
     font-weight: 600;
+    color: white;
+}
+
+.about {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+
+
+
+footer {
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Rubik', sans-serif;
     color: white;
 }
