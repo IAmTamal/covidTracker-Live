@@ -1,0 +1,39 @@
+.headings {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.r1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+
+}
+
+.r2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+
+.card__name {
+    font-size: 20px;
+}
+
+span {
+    font-size: 10px;
+}
+
+.allcards {
+    text-align: center;
+}
+
+.card {
+    width: 25%;
+    display: inline-block;
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 2%;
+}

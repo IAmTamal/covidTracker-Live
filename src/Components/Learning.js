@@ -1,4 +1,5 @@
-//useState hooks
+//Learning useState hooks
+//Use effect is a type of side effect.
 import React, { useState } from "react";
 
 const Learning = () => {
