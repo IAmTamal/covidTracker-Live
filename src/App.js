@@ -1,17 +1,12 @@
-import "./App.css";
+import React from "react";
+import Learning from "./Components/Learning";
 
-import React, { Component } from "react";
-import Navbar from "./Components/Navbar";
-import News from "./Components/News";
+const App = () => {
+  return (
+    <div>
+      <Learning />
+    </div>
+  );
+};
 
-//use rcc for class based components
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <Navbar />
-        <News />
-      </div>
-    );
-  }
-}
+export default App;
